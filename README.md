@@ -58,11 +58,11 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 99.234.22.248
+Only the **_Jumpbox Provisioner_** machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+- **99.234.22.248**
 
 Machines within the network can only be accessed by Workstation and Jump-Box-Provisioner through SSH Jump-Box.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+
     Jump-Box-Provisioner IP : 10.1.0.4 via SSH port 22
 
 A summary of the access policies in place can be found in the table below.
