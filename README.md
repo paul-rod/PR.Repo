@@ -9,9 +9,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Pentest](../blob/main/pentest.yml)
   - [Hosts](../blob/main/Hosts)
   - [Ansible Configuration](../blob/mainansible)
-  - [Ansible ELK Installation and VM Configuration](../blob/main/install-elk.yml
-  - Filebeat Config
-  - Filebeat Playbook
+  - [Ansible ELK Installation and VM Configuration](../blob/main/install-elk.yml)
+  - [Filebeat Config](../blob/main/filebeat_config.yml)
+  - [Filebeat Playbook](../blob.main/filebeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
