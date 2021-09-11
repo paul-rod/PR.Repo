@@ -30,10 +30,11 @@ Load balancing ensures that the application will be highly functional and availa
 
 - What aspect of security do load balancers protect? 
 
---_Load balancers add resiliency by rerouting live traffic from one server to another if a server falls prey to a DDoS attack or otherwise becomes unavailable._**
+-_Load balancers add resiliency by rerouting live traffic from one server to another if a server falls prey to a DDoS attack or otherwise becomes unavailable._**
 
 - What is the advantage of a jump box?
---_A Jump Box Provisioner is also important as it prevents Azure VMs from being exposed via a public IP Address. This allows us to do monitoring and logging on a single box. We can also restrict the IP addresses able to communicate with the Jump Box.__**
+
+-_A Jump Box Provisioner is also important as it prevents Azure VMs from being exposed via a public IP Address. This allows us to do monitoring and logging on a single box. We can also restrict the IP addresses able to communicate with the Jump Box.__**
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the Network and system logs.
 - What does Filebeat watch for?
