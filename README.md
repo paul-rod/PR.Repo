@@ -64,7 +64,7 @@ Only the **_Jumpbox Provisioner_** machine can accept connections from the Inter
 
 Machines within the network can only be accessed by Workstation and Jump-Box-Provisioner through SSH Jump-Box.
 
-    Jump-Box-Provisioner IP : 10.1.0.4 via SSH port 22
+    Jump-Box-Provisioner IP : 10.0.0.1 via SSH port 22
 
 A summary of the access policies in place can be found in the table below.
 
