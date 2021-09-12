@@ -79,17 +79,17 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
-**- Ansible lets you quickly and easily deploy multitier applications through a YAML playbook.
-**- You don't need to write custom code to automate your systems.
-**- Ansible will also figure out how to get your systems to the state you want them to be in.
+- **Ansible lets you quickly and easily deploy multitier applications through a YAML playbook.**
+- **You don't need to write custom code to automate your systems.**
+- **Ansible will also figure out how to get your systems to the state you want them to be in.**
 
 The playbook implements the following tasks:
 
-**- Install Docker: Installs the core docker code to the remote server
-**- Install Python3_pip: Pip is an installation module that allows for additional docker modules to be installed easier
-**- Docker Module: Tells the previous PIP module to install the necessary docker component modules
-**- Increase Memory/Use More Memory: A common issue with the ELK Docker image is to little memory. This help fix the issue to allow the server to launch
-**- Download and Launch ELK Container: This downloads the ELK docker container and initializes it with the specified ports being published
+- **Install Docker: Installs the core docker code to the remote server**
+- **Install Python3_pip: Pip is an installation module that allows for additional docker modules to be installed easier**
+- **Docker Module: Tells the previous PIP module to install the necessary docker component modules**
+- **Increase Memory/Use More Memory: A common issue with the ELK Docker image is to little memory. This help fix the issue to allow the server to launch**
+- **Download and Launch ELK Container: This downloads the ELK docker container and initializes it with the specified ports being published**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
