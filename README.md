@@ -131,5 +131,5 @@ _Answer the following questions to fill in the blanks:_
 - _How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
     - **One of the group will be webservers which has the IPs of the 3 VMs that I will install Filebeat to. The other group is named ELKserver which will have the IP of the VM I will install ELK to.**
 
-- _Which URL do you navigate to in order to check that the ELK server is running?
-    http://20.102.192.222:5601/app/kibana
+- _Which URL do you navigate to in order to check that the ELK server is running?_
+    - http://20.102.192.222:5601/app/kibana
