@@ -102,7 +102,8 @@ This ELK server is configured to monitor the following machines:
 - **Web-3: 10.1.0.8**
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+
+- **Filebeat** - ![Filebeat Module Status Screenshot](https://github.com/paul-rod/PR.Repo/blob/main/Screen%20Shot%202021-09-10%20at%206.04.30%20PM.png)
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat will be used to collect log files from very specific files such as Apache, Microsft Azure tools and web servers, MySQL databases.
