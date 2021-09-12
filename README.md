@@ -112,13 +112,13 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _yml_ file to _ansible_ folder.
-- Update the _config_ file to include...remote users and ports
+- Copy the **_yml_** file to **_ansible_** folder.
+- Update the **_config_** file to included **_remote users and ports_**
 - Run the playbook, and navigate to _Kibana (http://20.102.192.222:5601)_ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+_Answer the following questions to fill in the blanks:_
 - _Which file is the playbook?
-    pentest.yml ; install-elk.yml ; filebeat-playbook.yml
+    -- pentest.yml ; install-elk.yml ; filebeat-playbook.yml
   _Where do you copy it?_
     /etc/ansible
 
