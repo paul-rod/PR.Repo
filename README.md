@@ -52,7 +52,8 @@ The configuration details of each machine may be found below.
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
 | Web-1    | Ubuntu   | 10.0.0.7   | Linux            |
 | Web-2    | Ubuntu   | 10.0.0.6   | Linux            |
-| TODO     | Ubuntu   | 10.1.0.4   | Linux            |
+| Web-3    | Ubuntu   | 10.0.0.8   | Linux            |
+| ELK-VM   | Ubuntu   | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
