@@ -78,56 +78,18 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
-    Ansible lets you quickly and easily deploy multitier applications through a YAML playbook.
-    You don't need to write custom code to automate your systems.
-    Ansible will also figure out how to get your systems to the state you want them to be in.
+- What is the main advantage of automating configuration with Ansible?
+- Ansible lets you quickly and easily deploy multitier applications through a YAML playbook.
+- You don't need to write custom code to automate your systems.
+- Ansible will also figure out how to get your systems to the state you want them to be in.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- Specify a different group of machines:
-  - name: Config elk VM with Docker
-    hosts: elk
-    become: true
-    tasks:
-Install Docker.io
-  - name: Install docker.io
-    apt:
-      update_cache: yes
-      force_apt_get: yes
-      name: docker.io
-      state: present
-Install Python-pip
-  - name: Install python3-pip
-    apt:
-      force_apt_get: yes
-      name: python3-pip
-      state: present
 
-  - name: Install Docker module
-    pip:
-      name: docker
-      state: present
-      `docker`, which is the Docker Python pip module.
-Increase Virtual Memory
- - name: Use more memory
-   sysctl:
-     name: vm.max_map_count
-     value: '262144'
-     state: present
-     reload: yes
-Download and Launch ELK Docker Container (image sebp/elk)
- - name: Download and launch a docker elk container
-   docker_container:
-     name: elk
-     image: sebp/elk:761
-     state: started
-     restart_policy: always
-Published ports 5044, 5601 and 9200 were made available
-     published_ports:
-       -  5601:5601
-       -  9200:9200
-       -  5044:5044   
+- Install Docker: Installs the core docker code to the remote server
+- Install Python3_pip: Pip is an installation module that allows for additional docker modules to be installed easier
+- Docker Module: Tells the previous PIP module to install the necessary docker component modules
+- Increase Memory/Use More Memory: A common issue with the ELK Docker image is to little memory. This help fix the issue to allow the server to launch
+- Download and Launch ELK Container: This downloads the ELK docker container and initializes it with the specified ports being published
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
