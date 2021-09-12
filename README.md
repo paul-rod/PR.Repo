@@ -131,7 +131,7 @@ Published ports 5044, 5601 and 9200 were made available
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-!(Desktop/README/Images/ELK Server - sudo docker ps.png)
+![alt text](https://github.com/paul-rod/PR.Repo/blob/main/ELK%20Server%20-%20sudo%20docker%20ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
