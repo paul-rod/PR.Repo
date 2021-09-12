@@ -78,18 +78,18 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- What is the main advantage of automating configuration with Ansible?
-- Ansible lets you quickly and easily deploy multitier applications through a YAML playbook.
-- You don't need to write custom code to automate your systems.
-- Ansible will also figure out how to get your systems to the state you want them to be in.
+
+**- Ansible lets you quickly and easily deploy multitier applications through a YAML playbook.
+**- You don't need to write custom code to automate your systems.
+**- Ansible will also figure out how to get your systems to the state you want them to be in.
 
 The playbook implements the following tasks:
 
-- Install Docker: Installs the core docker code to the remote server
-- Install Python3_pip: Pip is an installation module that allows for additional docker modules to be installed easier
-- Docker Module: Tells the previous PIP module to install the necessary docker component modules
-- Increase Memory/Use More Memory: A common issue with the ELK Docker image is to little memory. This help fix the issue to allow the server to launch
-- Download and Launch ELK Container: This downloads the ELK docker container and initializes it with the specified ports being published
+**- Install Docker: Installs the core docker code to the remote server
+**- Install Python3_pip: Pip is an installation module that allows for additional docker modules to be installed easier
+**- Docker Module: Tells the previous PIP module to install the necessary docker component modules
+**- Increase Memory/Use More Memory: A common issue with the ELK Docker image is to little memory. This help fix the issue to allow the server to launch
+**- Download and Launch ELK Container: This downloads the ELK docker container and initializes it with the specified ports being published
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -97,9 +97,9 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- Web-1: 10.0.0.7
-  Web-2: 10.1.0.6
-  Web-3: 10.1.0.8
+**- Web-1: 10.0.0.7
+**- Web-2: 10.1.0.6
+**- Web-3: 10.1.0.8
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
