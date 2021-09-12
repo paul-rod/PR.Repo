@@ -117,14 +117,19 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to _Kibana (http://20.102.192.222:5601)_ to check that the installation worked as expected.
 
 _Answer the following questions to fill in the blanks:_
-- _Which file is the playbook?
-    -- pentest.yml ; install-elk.yml ; filebeat-playbook.yml
-  _Where do you copy it?_
-    /etc/ansible
+- _Which file is the playbook?_
+    - **pentest.yml**
+    - **install-elk.yml** 
+    - **filebeat-playbook.yml**
+    
+- _Where do you copy it?_
+    - **/etc/ansible/**
 
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-    /etc/ansible/hosts file (IP of the Virtual Machines).
-    One of the group will be webservers which has the IPs of the 3 VMs that I will install Filebeat to. The other group is named ELKserver which will have the IP of the VM I will install ELK to.
+- _Which file do you update to make Ansible run the playbook on a specific machine?_ 
+    - **/etc/ansible/hostsfile (IP of the Virtual Machines)*
+- 
+- _How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+    - **One of the group will be webservers which has the IPs of the 3 VMs that I will install Filebeat to. The other group is named ELKserver which will have the IP of the VM I will install ELK to.**
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
     http://20.102.192.222:5601/app/kibana
